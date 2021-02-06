@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Nunito', sans-serif;
+}
+.container {
+    margin: 20px 50px;
+    border: 5px solid rgb(56, 56, 56);
+    border-radius: 20px;
+}
+.search {
+    margin-top: 50px;  
+}
+.search h3 {
+    margin: 20px 0;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+.search h3{
+    text-align: center;
+}
+.search-box {
+    margin: 0 auto;
+}
+.search-box input {
+    padding: 15px 10px;
+    width: 400px;
+}
+
+.card {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center; 
+}
+.card-one {
+    background-color: rgb(185, 185, 255);
+    padding: 20px 25px;
+    border-radius: 8px;
+   display:inline-block;
+   margin: 0 10px;
+}
+.card-one h3, .card-two h3, .card-three h3 {
+    padding: 20px 0;
+}
+.card-one p, .card-two p, .card-three p {
+    font-weight:bold;
+    color:rgb(58, 56, 56);
+}
+.card-one button{
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgb(185, 185, 255);
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+    box-shadow: 1px 3px 5px rgb(185, 185, 255);
+}
+.card-one button .fas, .card-two button .fas, .card-three button .fas {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.card-two {
+    background-color: rgb(235, 194, 194);
+    padding: 20px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.card-two button {
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgb(235, 194, 194);
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.card-three {
+    background-color: pink;
+    padding: 20px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 0 10px;
+    box-shadow: 3px 5px 10px #fff;
+}
+.card-three button {
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.box{
+    margin: 0 150px 100px 150px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box-one h3 {
+    font-weight: bolder;
+}
+.box-one p, .box-two p, .box-three p {
+    margin: 15px 0;
+    font-weight: bold;
+    color: rgb(82, 79, 79);
+}
+.box-one a, .box-two a, .box-three a {
+    font-weight:bold;
+    color: blue;
+}
